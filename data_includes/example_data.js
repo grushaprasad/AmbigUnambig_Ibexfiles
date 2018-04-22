@@ -44,7 +44,7 @@ var items = [
 ["demographic", "Form", { html: { include: "demographic.html" }}],
 ["instructions", "Message",{html: {include: "instructions.html"}}],
 
-["beginning_of_practice", "Message", {html: "<p>Let's start with a few practice sentences. As a reminder, press <b> z </b> if the answer is yes and <b> m</b> if the answer is no</p> <p> Press any key to begin </p>" }],
+["beginning_of_practice", "Message", {html: "<p>Let's start with a few practice sentences. As a reminder, press <b> z </b> if the answer is yes and <b> m </b> if the answer is no</p> <p> Press any key to begin </p>" }],
 
 ["practice", "DashedSentence", {s: "The activists were tired of all the red tape involved in getting the new policy passed."}, "Question", {q: "Was it easy to get the policy passed?"}],
 ["practice", "DashedSentence", {s: "My classmates were bored to death while reading War and Peace."}, "Question", {q: "Did my classmates find War and Peace enjoyable?"}],
