@@ -1,6 +1,10 @@
 .Question {
     margin-left: 0;
     padding-left: 0;
+    font-size: 30;
+}
+.Question-normal-answer {
+    font-size: 70pt;
 }
 .instructions-text {
     font-style: italic;
@@ -10,6 +14,7 @@
 }
 li.normal-answer {
     text-align: left;
+    font-size:30;
     cursor: pointer;
     padding-bottom: 1em;
 }
@@ -57,4 +62,3 @@ span.fake-link {
 span:hover.fake-link {
     cursor: pointer;
 }
-
