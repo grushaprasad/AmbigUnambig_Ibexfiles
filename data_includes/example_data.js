@@ -1,6 +1,6 @@
 var shuffleSequence = seq("setcounter","intro", "demographic", "instructions", "beginning_of_practice", sepWith("practice_sep", "practice"), "practice_sep", "end_of_practice", "spacebar",
                           sepWith("sep", seq(anyOf("RRC28", "filler64", "RRC21", "RRC22", "RRC23", "filler60", "RRC38_unambig", "filler62", "filler63", "RRC8_unambig", "RRC56", "RRC20", "RRC2_unambig", "RRC14_unambig", "RRC38_ambig", "RRC29_ambig", "RRC30_ambig", "filler61", "RRC59", "RRC58", "RRC55", "RRC54", "RRC57", "RRC27", "RRC51", "RRC50", "RRC53", "RRC52", "RRC24_unambig", "RRC8_ambig", "filler42", "filler43", "filler40", "filler41", "filler46", "RRC30_unambig", "filler44", "filler45", "RRC5_unambig", "filler49", "filler28", "RRC5_ambig", "RRC48", "RRC49", "RRC46", "RRC47", "RRC44", "RRC45", "RRC42", "RRC43", "RRC40", "RRC41", "RRC9_unambig", "RRC11_unambig", "RRC25", "RRC37", "RRC35_ambig", "filler55", "filler54", "filler57", "filler56", "filler51", "filler50", "filler53", "filler52", "RRC2_ambig", "RRC3_ambig", "RRC26", "filler59", "filler58", "RRC36_unambig", "RRC36_ambig", "RRC14_ambig", "RRC24_ambig", "RRC12_ambig", "RRC33", "RRC64", "RRC60", "RRC61", "RRC62", "RRC63", "filler20", "filler21", "filler22", "filler23", "filler24", "filler25", "filler26", "filler27", "RRC3_unambig", "filler29", "RRC32", "filler47", "RRC34_unambig", "RRC31_ambig", "RRC12_unambig", "RRC29_unambig", "filler48", "RRC10", "RRC13", "RRC35_unambig", "RRC17", "RRC16", "RRC19", "RRC18", "filler33", "filler32", "filler31", "filler30", "filler37", "filler36", "filler35", "filler34", "filler39", "filler38", "RRC1", "RRC4", "RRC7", "RRC6", "RRC31_unambig", "RRC9_ambig", "RRC15", "filler9", "filler8", "filler5", "filler4", "filler7", "filler6", "filler1", "filler3", "filler2", "filler19", "filler18", "RRC39", "filler11", "filler10", "filler13", "filler12", "filler15", "filler14", "filler17", "filler16", "RRC11_ambig", "RRC34_ambig"))
-                            ),"participant_observations", "sr", "end_of_experiment");
+                            ),"participant_observations", "sr", "git end_of_experiment");
 
 var practiceItemTypes = ["practice"];
 
@@ -38,7 +38,7 @@ var defaults = [
 
 var items = [
 ["practice_sep", "Separator", {transfer: 1000}], 
-["sr", "__SendResults__". {}], 
+["sr", "__SendResults__", {}], 
 ['spacebar','Separator', {transfer: 2000,  normalMessage: "Press spacebar on next screen to reveal words."}],
     
 ["sep", "Separator", { transfer: 1000 }],
